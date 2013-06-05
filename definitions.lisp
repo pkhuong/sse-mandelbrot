@@ -2,6 +2,7 @@
   (:use "CL" "SB-EXT" "SB-C"))
 
 (in-package "MANDELBROT")
+
 (defknown (f4+ f4* f4-) ((simd-pack single-float) (simd-pack single-float))
     (simd-pack single-float)
     (movable flushable always-translatable)

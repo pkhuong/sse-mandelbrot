@@ -1,4 +1,5 @@
 (in-package "SB-VM")
+
 (define-vop (mandelbrot::f4+)
   (:translate mandelbrot::f4+)
   (:policy :fast-safe)
